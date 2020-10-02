@@ -2,4 +2,13 @@
     padding-left:7px;
     padding-right:7px;
     letter-spacing: 1px;
-  }
+}
+
+.service-item .service-icon img {
+    max-width: 100%;
+}
+
+.w-100 {
+    width: 100% !important;
+    height: 80vh;
+}
