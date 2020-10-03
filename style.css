@@ -8,7 +8,54 @@
     max-width: 100%;
 }
 
-.w-100 {
-    width: 100% !important;
-    height: 80vh;
+.first-section {
+    background-position-x: center;
+    overflow: hidden;
+    height: 100vh;
+	vertical-align: middle;
+}
+
+
+
+footer
+{
+    background-color: #0d0c22;
+    color: white;
+}
+
+.footer-links-soi 
+{
+
+    list-style-type: none;
+
+    margin: 0;
+
+    padding: 0;
+
+    overflow: hidden;
+
+    background-color: #0d0c22;
+
+}
+
+.footer-links-soi li 
+{
+
+    float: left;
+
+}
+
+.footer-links-soi li a 
+{
+
+    display: block;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 16px;
+
+    text-decoration: none;
+
 }
