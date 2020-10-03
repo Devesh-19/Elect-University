@@ -1,332 +1,307 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
-    <link rel="stylesheet" href="style.css">
-    <title>Elect University</title>
-</head>
-<body>
-    <!-- header section -->
-    <header>
-        <!-- navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container">
-                <a class="navbar-brand" href="#">
-                    Elect
-                    <span>University</span>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="style.css">
+        <title>Elect University</title>
+    </head>
+    <body>
+        <!-- header section -->
+        <header>
+            <!-- navbar -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        Elect
+                        <span>University</span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                            <li class="nav-item ">
+                                <a class="nav-link" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>                  
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Courses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Events</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- end of navbar -->
+        </header>
+        <!-- end of header section -->
+
+        <!-- main section -->
+        <main>
+            <!-- carousel banner(image slider) -->
+            <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+                <!-- carousel indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleInterval" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleInterval" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleInterval" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <div id="home" class="first-section" style="background-image:url('slider-01.jpg');">
+                        </div><!-- end section -->
+                    </div>
+                    <div class="carousel-item">
+                        <div id="home" class="first-section" style="background-image:url('girlinLibrary.jpeg');">
+                        </div><!-- end section -->
+                    </div>
+                    <div class="carousel-item">
+                        <div id="home" class="first-section" style="background-image:url('slider-03.jpg');">
+                        </div><!-- end section -->
+                    </div>
+                </div>
+                <!-- left controller -->
+                <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
                 </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
-                        <li class="nav-item ">
-                            <a class="nav-link" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
-                        </li>                  
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Courses</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Events</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
-                    </ul>
-                </div>
+                <!-- right controller -->
+                <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </a>
             </div>
-        </nav>
-        <!-- end of navbar -->
-    </header>
-    <!-- end of header section -->
+            <!-- end of carousel -->
 
-    <!-- main section -->
-    <main>
-        <!-- carousel banner(image slider) -->
-        <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
-            <!-- carousel indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleInterval" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleInterval" data-slide-to="1"></li>
-                <li data-target="#carouselExampleInterval" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner" role="listbox">
-                <div class="carousel-item active">
-                    <div id="home" class="first-section" style="background-image:url('slider-01.jpg');">
-                    </div><!-- end section -->
-                </div>
-                <div class="carousel-item">
-                    <div id="home" class="first-section" style="background-image:url('girlinLibrary.jpeg');">
-                    </div><!-- end section -->
-                </div>
-                <div class="carousel-item">
-                    <div id="home" class="first-section" style="background-image:url('slider-03.jpg');">
-                    </div><!-- end section -->
-                </div>
-            </div>
-            <!-- left controller -->
-            <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </a>
-            <!-- right controller -->
-            <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </a>
-        </div>
-        <!-- end of carousel -->
-
-        <!-- about us section -->
-        <section class="img" id="section-counter about" style="background-image: url(&quot;images/bg_3.jpg&quot;); background-position: 50% 30.3px;" data-stellar-background-ratio="0.5">
-            <div class="container">
-                <div class="row justify-content-center mb-5 pb-2 d-flex">
-                    <div class="col-md-6 align-items-stretch d-flex">
-                        <div class="img img-video d-flex align-items-center" style="background-image: url(images/about-2.jpg);">
-                            <div class="video justify-content-center">
-                                <a href="https://vimeo.com/45830194" class="icon-video popup-vimeo d-flex justify-content-center align-items-center">
-                                    <span class="ion-ios-play"></span>
-                                </a>
+            <!-- about us section -->
+            <section class="img" id="section-counter about">
+                <div class="container">
+                    <div class="row justify-content-center mb-5 pb-2 d-flex">
+                        <div class="col-md-6 align-items-stretch d-flex">
+                            <div class="img img-video d-flex align-items-center" style="background-image: url(images/about-2.jpg);">
+                                <div class="video justify-content-center">
+                                    <a href="https://vimeo.com/45830194" class="icon-video popup-vimeo d-flex justify-content-center align-items-center">
+                                        <span class="ion-ios-play"></span>
+                                    </a>
+                                </div>
                             </div>
                         </div>
+                        <div class="col-md-6 heading-section heading-section-white ftco-animate pl-lg-5 pt-md-0 pt-5 fadeInUp ftco-animated">
+                            <h2 class="mb-4">Elect University</h2>
+                            <p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                        </div>
                     </div>
-                    <div class="col-md-6 heading-section heading-section-white ftco-animate pl-lg-5 pt-md-0 pt-5 fadeInUp ftco-animated">
-                        <h2 class="mb-4">Elect University</h2>
-                        <p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                    </div>
-                </div>
-                <div class="row d-md-flex align-items-center justify-content-center">
-                    <div class="col-lg-12">
-                        <div class="row d-md-flex align-items-center">
-                            <div class="col-md d-flex justify-content-center counter-wrap ftco-animate fadeInUp ftco-animated">
-                                <div class="block-18">
-                                    <div class="icon"><span class="flaticon-doctor"></span></div>
-                                    <div class="text">
-                                        <strong class="number" data-number="18">18</strong>
-                                        <span>Certified Teachers</span>
+                    <div class="row d-md-flex align-items-center justify-content-center">
+                        <div class="col-lg-12">
+                            <div class="row d-md-flex align-items-center">
+                                <div class="col-md d-flex justify-content-center counter-wrap ftco-animate fadeInUp ftco-animated">
+                                    <div class="block-18">
+                                        <div class="icon"><span class="flaticon-doctor"></span></div>
+                                        <div class="text">
+                                            <strong class="number" data-number="18">18</strong>
+                                            <span>Certified Teachers</span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-md d-flex justify-content-center counter-wrap ftco-animate fadeInUp ftco-animated">
-                                <div class="block-18">
-                                    <div class="icon"><span class="flaticon-doctor"></span></div>
-                                    <div class="text">
-                                        <strong class="number" data-number="401">401</strong>
-                                        <span>Students</span>
+                                <div class="col-md d-flex justify-content-center counter-wrap ftco-animate fadeInUp ftco-animated">
+                                    <div class="block-18">
+                                        <div class="icon"><span class="flaticon-doctor"></span></div>
+                                        <div class="text">
+                                            <strong class="number" data-number="401">401</strong>
+                                            <span>Students</span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-md d-flex justify-content-center counter-wrap ftco-animate fadeInUp ftco-animated">
-                                <div class="block-18">
-                                    <div class="icon"><span class="flaticon-doctor"></span></div>
-                                    <div class="text">
-                                        <strong class="number" data-number="30">30</strong>
-                                        <span>Courses</span>
+                                <div class="col-md d-flex justify-content-center counter-wrap ftco-animate fadeInUp ftco-animated">
+                                    <div class="block-18">
+                                        <div class="icon"><span class="flaticon-doctor"></span></div>
+                                        <div class="text">
+                                            <strong class="number" data-number="30">30</strong>
+                                            <span>Courses</span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-md d-flex justify-content-center counter-wrap ftco-animate fadeInUp ftco-animated">
-                                <div class="block-18">
-                                    <div class="icon"><span class="flaticon-doctor"></span></div>
-                                    <div class="text">
-                                        <strong class="number" data-number="50">50</strong>
-                                        <span>Awards Won</span>
+                                <div class="col-md d-flex justify-content-center counter-wrap ftco-animate fadeInUp ftco-animated">
+                                    <div class="block-18">
+                                        <div class="icon"><span class="flaticon-doctor"></span></div>
+                                        <div class="text">
+                                            <strong class="number" data-number="50">50</strong>
+                                            <span>Awards Won</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- end of about us section -->
+            </section>
+            <!-- end of about us section -->
 
-        <!-- services provided by the institute -->
-        <section class="service-section spad">
-            <div class="container services">
-                <div class="section-title text-center">
-                    <h3>OUR SERVICES</h3>
-                    <p>We provides the opportunity to prepare for life</p>
+            <!-- services provided by the institute -->
+            <section class="service-section spad">
+                <div class="container services">
+                    <div class="section-title text-center">
+                        <h3>OUR SERVICES</h3>
+                        <p>We provides the opportunity to prepare for life</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-6 service-item my-3 d-flex">
+                            <div class="service-icon">
+                                <img src="https://colorlib.com/preview/theme/unica/img/services-icons/1.png" alt="1">
+                            </div>
+                            <div class="service-content mx-4">
+                                <h4>Art Studio</h4>
+                                <p>Lorem ipsum dolor sitdo amet, consectetur dont adipis elit. Vivamus interdum ultrices augue. Aenean dos cursus lania.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 service-item my-3 d-flex">
+                            <div class="service-icon">
+                                <img src="https://colorlib.com/preview/theme/unica/img/services-icons/2.png" alt="1">
+                            </div>
+                            <div class="service-content mx-4">
+                                <h4>Great Facility</h4>
+                                <p>Lorem ipsum dolor sitdo amet, consectetur dont adipis elit. Vivamus interdum ultrices augue. Aenean dos cursus lania.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 service-item my-3 d-flex">
+                            <div class="service-icon">
+                                <img src="https://colorlib.com/preview/theme/unica/img/services-icons/3.png" alt="1">
+                            </div>
+                            <div class="service-content mx-4">
+                                <h4>Activity Hub</h4>
+                                <p>Lorem ipsum dolor sitdo amet, consectetur dont adipis elit. Vivamus interdum ultrices augue. Aenean dos cursus lania.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 service-item my-3 d-flex">
+                            <div class="service-icon">
+                                <img src="https://colorlib.com/preview/theme/unica/img/services-icons/4.png" alt="1">
+                            </div>
+                            <div class="service-content mx-4">
+                                <h4>Fully Qualified</h4>
+                                <p>Lorem ipsum dolor sitdo amet, consectetur dont adipis elit. Vivamus interdum ultrices augue. Aenean dos cursus lania.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 service-item my-3 d-flex">
+                            <div class="service-icon">
+                                <img src="https://colorlib.com/preview/theme/unica/img/services-icons/5.png" alt="1">
+                            </div>
+                            <div class="service-content mx-4">
+                                <h4>Flexible Schedule</h4>
+                                <p>Lorem ipsum dolor sitdo amet, consectetur dont adipis elit. Vivamus interdum ultrices augue. Aenean dos cursus lania.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 service-item my-3 d-flex">
+                            <div class="service-icon">
+                                <img src="https://colorlib.com/preview/theme/unica/img/services-icons/6.png" alt="1">
+                            </div>
+                            <div class="service-content mx-4">
+                                <h4>Chemistry Lab</h4>
+                                <p>Lorem ipsum dolor sitdo amet, consectetur dont adipis elit. Vivamus interdum ultrices augue. Aenean dos cursus lania.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+            </section>
+            <!-- end of services section -->
+
+            <!-- courses provided by the institute -->
+            <section class="courses-section spad">
+                <div class="container">
+                    <div class="section-title text-center">
+                        <h3>OUR COURSES</h3>
+                        <p>Building a better world, one course at a time</p>
+                    </div>
+                    <div class="row">        
+                        <div class="col-12 col-md-4 mb-3">
+                            <div class="card">
+                                <img src="abstract_multicolor_patterns_Simon_C__Page_1920x1080.jpg" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="First Thing">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-outline-success btn-sm">View more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 mb-3">
+                            <div class="card">
+                                <img src="colorful_pattern_1920x1080.jpg" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="First Thing">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-outline-success btn-sm">View more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 mb-3">
+                            <div class="card">
+                                <img src="blocks_brick_brick_texture_brick_wall_brickwall_brickwork_masonry_mortar_pattern_rectangle_rough_solid_stack_stone_6000x3376.jpg" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="First Thing">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-outline-success btn-sm">View more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 mb-3">
+                            <div class="card">
+                                <img src="abstract_multicolor_patterns_Simon_C__Page_1920x1080.jpg" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="First Thing">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-outline-success btn-sm">View more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 mb-3">
+                            <div class="card">
+                                <img src="colorful_pattern_1920x1080.jpg" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="First Thing">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-outline-success btn-sm">View more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 mb-3">
+                            <div class="card">
+                                <img src = "blocks_brick_brick_texture_brick_wall_brickwall_brickwork_masonry_mortar_pattern_rectangle_rough_solid_stack_stone_6000x3376.jpg" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="First Thing">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-outline-success btn-sm">View more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- end of courses section -->
+
+            <!-- events section -->
+            <section class="events page_section">
+                <div class="container">
                 <div class="row">
-                    <div class="col-lg-4 col-sm-6 service-item">
-                        <div class="service-icon">
-                            <img src="https://colorlib.com/preview/theme/unica/img/services-icons/1.png" alt="1">
-                        </div>
-                        <div class="service-content">
-                            <h4>Art Studio</h4>
-                            <p>Lorem ipsum dolor sitdo amet, consectetur dont adipis elit. Vivamus interdum ultrices augue. Aenean dos cursus lania.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 service-item">
-                        <div class="service-icon">
-                            <img src="https://colorlib.com/preview/theme/unica/img/services-icons/2.png" alt="1">
-                        </div>
-                        <div class="service-content">
-                            <h4>Great Facility</h4>
-                            <p>Lorem ipsum dolor sitdo amet, consectetur dont adipis elit. Vivamus interdum ultrices augue. Aenean dos cursus lania.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 service-item">
-                        <div class="service-icon">
-                            <img src="https://colorlib.com/preview/theme/unica/img/services-icons/3.png" alt="1">
-                        </div>
-                        <div class="service-content">
-                            <h4>Activity Hub</h4>
-                            <p>Lorem ipsum dolor sitdo amet, consectetur dont adipis elit. Vivamus interdum ultrices augue. Aenean dos cursus lania.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 service-item">
-                        <div class="service-icon">
-                            <img src="https://colorlib.com/preview/theme/unica/img/services-icons/4.png" alt="1">
-                        </div>
-                        <div class="service-content">
-                            <h4>Fully Qualified</h4>
-                            <p>Lorem ipsum dolor sitdo amet, consectetur dont adipis elit. Vivamus interdum ultrices augue. Aenean dos cursus lania.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 service-item">
-                        <div class="service-icon">
-                            <img src="https://colorlib.com/preview/theme/unica/img/services-icons/5.png" alt="1">
-                        </div>
-                        <div class="service-content">
-                            <h4>Flexible Schedule</h4>
-                            <p>Lorem ipsum dolor sitdo amet, consectetur dont adipis elit. Vivamus interdum ultrices augue. Aenean dos cursus lania.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 service-item">
-                        <div class="service-icon">
-                            <img src="https://colorlib.com/preview/theme/unica/img/services-icons/6.png" alt="1">
-                        </div>
-                        <div class="service-content">
-                            <h4>Chemistry Lab</h4>
-                            <p>Lorem ipsum dolor sitdo amet, consectetur dont adipis elit. Vivamus interdum ultrices augue. Aenean dos cursus lania.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- end of services section -->
-
-        <!-- courses provided by the institute -->
-        <section class="courses-section spad">
-            <div class="container">
-                <div class="section-title text-center">
-                    <h3>OUR COURSES</h3>
-                    <p>Building a better world, one course at a time</p>
-                </div>
-                <div class="row">        
-                    <div class="col-12 col-md-4 mb-3">
-                        <div class="card">
-                            <img src="abstract_multicolor_patterns_Simon_C__Page_1920x1080.jpg" class="card-img-top">
-                            <div class="card-body">
-                                <h5 class="First Thing">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-outline-success btn-sm">View more</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4 mb-3">
-                        <div class="card">
-                            <img src="colorful_pattern_1920x1080.jpg" class="card-img-top">
-                            <div class="card-body">
-                                <h5 class="First Thing">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-outline-success btn-sm">View more</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4 mb-3">
-                        <div class="card">
-                            <img src="blocks_brick_brick_texture_brick_wall_brickwall_brickwork_masonry_mortar_pattern_rectangle_rough_solid_stack_stone_6000x3376.jpg" class="card-img-top">
-                            <div class="card-body">
-                                <h5 class="First Thing">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-outline-success btn-sm">View more</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4 mb-3">
-                        <div class="card">
-                            <img src="abstract_multicolor_patterns_Simon_C__Page_1920x1080.jpg" class="card-img-top">
-                            <div class="card-body">
-                                <h5 class="First Thing">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-outline-success btn-sm">View more</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4 mb-3">
-                        <div class="card">
-                            <img src="colorful_pattern_1920x1080.jpg" class="card-img-top">
-                            <div class="card-body">
-                                <h5 class="First Thing">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-outline-success btn-sm">View more</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4 mb-3">
-                        <div class="card">
-                            <img src = "blocks_brick_brick_texture_brick_wall_brickwall_brickwork_masonry_mortar_pattern_rectangle_rough_solid_stack_stone_6000x3376.jpg" class="card-img-top">
-                            <div class="card-body">
-                                <h5 class="First Thing">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-outline-success btn-sm">View more</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- end of courses section -->
-
-        <!-- events section -->
-        <section class="events page_section">
-            <div class="container">
-              <div class="row">
-                <div class="col">
-                    <div class="section_title text-center">
-                        <h1>Upcoming Events</h1>
-                    </div>
-                </div>
-            </div>
-            <div class="event_items">            
-                <div class="row event_item">
                     <div class="col">
-                        <div class="row d-flex flex-row align-items-end my-3">
-                            <div class="col-lg-2 order-lg-1 order-2">
-                                <div class="event_date d-flex flex-column align-items-center justify-content-center border border-warning py-4">
-                                    <div class="event_day">07</div>
-                                    <div class="event_month">January</div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 order-lg-2 order-3">
-                                <div class="event_content">
-                                    <div class="event_name"><a class="trans_200" href="#">Student Festival</a></div>
-                                    <div class="event_location">Grand Central Park</div>
-                                    <p>In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor.</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 order-lg-3 order-1">
-                                <div class="event_image">
-                                    <img src="crowd.jpg" class = "img-fluid w-100 h-100" alt="https://unsplash.com/@theunsteady5">
-                                </div>
-                            </div>
+                        <div class="section_title text-center">
+                            <h1>Upcoming Events</h1>
                         </div>
                     </div>
-                    </div>
-                    
+                </div>
+                <div class="event_items">            
                     <div class="row event_item">
                         <div class="col">
                             <div class="row d-flex flex-row align-items-end my-3">
@@ -338,118 +313,143 @@
                                 </div>
                                 <div class="col-lg-6 order-lg-2 order-3">
                                     <div class="event_content">
-                                        <div class="event_name"><a class="trans_200" href="#">Open day in the Univesrsity campus</a></div>
+                                        <div class="event_name"><a class="trans_200" href="#">Student Festival</a></div>
                                         <div class="event_location">Grand Central Park</div>
                                         <p>In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor.</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-4 order-lg-3 order-1">
                                     <div class="event_image">
-                                        <img src="campus.jpg" class = "img-fluid w-100 h-100" alt="https://unsplash.com/@claybanks">
+                                        <img src="crowd.jpg" class = "img-fluid w-100 h-100" alt="https://unsplash.com/@theunsteady5">
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    
-                    <div class="row event_item">
-                        <div class="col">
-                            <div class="row d-flex flex-row align-items-end my-3">
-                                <div class="col-lg-2 order-lg-1 order-2">
-                                    <div class="event_date d-flex flex-column align-items-center justify-content-center border border-warning py-4">
-                                    <div class="event_day">07</div>
-                                    <div class="event_month">January</div>
+                        </div>
+                        
+                        <div class="row event_item">
+                            <div class="col">
+                                <div class="row d-flex flex-row align-items-end my-3">
+                                    <div class="col-lg-2 order-lg-1 order-2">
+                                        <div class="event_date d-flex flex-column align-items-center justify-content-center border border-warning py-4">
+                                            <div class="event_day">07</div>
+                                            <div class="event_month">January</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 order-lg-2 order-3">
+                                        <div class="event_content">
+                                            <div class="event_name"><a class="trans_200" href="#">Open day in the Univesrsity campus</a></div>
+                                            <div class="event_location">Grand Central Park</div>
+                                            <p>In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 order-lg-3 order-1">
+                                        <div class="event_image">
+                                            <img src="campus.jpg" class = "img-fluid w-100 h-100" alt="https://unsplash.com/@claybanks">
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-6 order-lg-2 order-3">
-                                    <div class="event_content">
-                                    <div class="event_name"><a class="trans_200" href="#">Student Graduation Ceremony</a></div>
-                                    <div class="event_location">Grand Central Park</div>
-                                    <p>In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="row event_item">
+                            <div class="col">
+                                <div class="row d-flex flex-row align-items-end my-3">
+                                    <div class="col-lg-2 order-lg-1 order-2">
+                                        <div class="event_date d-flex flex-column align-items-center justify-content-center border border-warning py-4">
+                                        <div class="event_day">07</div>
+                                        <div class="event_month">January</div>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-lg-4 order-lg-3 order-1">
-                                    <div class="event_image">
-                                        <img src="graduation.jpg" class = "img-fluid w-100 h-100" alt="https://unsplash.com/@juanmramosjr">
+                                    <div class="col-lg-6 order-lg-2 order-3">
+                                        <div class="event_content">
+                                        <div class="event_name"><a class="trans_200" href="#">Student Graduation Ceremony</a></div>
+                                        <div class="event_location">Grand Central Park</div>
+                                        <p>In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 order-lg-3 order-1">
+                                        <div class="event_image">
+                                            <img src="graduation.jpg" class = "img-fluid w-100 h-100" alt="https://unsplash.com/@juanmramosjr">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- end of events section -->
-    </main>
-    <!-- end of main -->
+            </section>
+            <!-- end of events section -->
+        </main>
+        <!-- end of main -->
 
-    <!-- footer of the website -->
-    <footer class="footer">
-        <div class="container">
-            <div class="row justify-content-between py-3">
-                <!-- contact details for the institute -->
-                <div class="col-lg-4 col-md-4 col-xs-12 mt-5 pt-4">
-                    <div class="widget clearfix">
-                        <div class="widget-title pb-2">
-                            <h3>Contact Details</h3>
-                        </div>
-                        <ul class="footer-links">
-                            <li><a href="#">info@elect.com</a></li>
-                            <li><a href="#">www.elect.com</a></li>
-                            <li>A/204, Sangam Arcade, Opp Rewly Sta, Vile Parle (west), Mumbai, Maharashtra</li>
-                            <li>+91 7555262487</li>
-                        </ul>
-                        <!-- important links -->
-                        <div class="footer-right">
-                            <ul class="footer-links-soi">
-                                <li><a href="#"><i class="fab fa-facebook fa-lg"></i></a></li>
-                                <li><a href="#"><i class="fab fa-github fa-lg"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter fa-lg"></i></a></li>
-                                <li><a href="#"><i class="fab fa-dribbble fa-lg"></i></a></li>
-                                <li><a href="#"><i class="fab fa-pinterest fa-lg"></i></a></li>
+        <!-- footer of the website -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row justify-content-between py-3">
+                    <!-- contact details for the institute -->
+                    <div class="col-lg-4 col-md-4 col-xs-12 mt-5 pt-4">
+                        <div class="widget clearfix">
+                            <div class="widget-title pb-2">
+                                <h3>Contact Details</h3>
+                            </div>
+                            <ul class="footer-links">
+                                <li><a href="#">info@elect.com</a></li>
+                                <li><a href="#">www.elect.com</a></li>
+                                <li>A/204, Sangam Arcade, Opp Rewly Sta, Vile Parle (west), Mumbai, Maharashtra</li>
+                                <li>+91 7555262487</li>
                             </ul>
+                            <!-- important links -->
+                            <div class="footer-right">
+                                <ul class="footer-links-soi">
+                                    <li><a href="#"><i class="fab fa-facebook fa-lg"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-github fa-lg"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter fa-lg"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-dribbble fa-lg"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-pinterest fa-lg"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-xs-12">
+                        <!-- join us form -->
+                        <div class="join_us">
+                            <form id="joinUs" class="" name="joinUs">
+                                <h4 class="text-white text-center mb-3">Pick A Course For You</h4>
+                                <div class="row row-fluid">
+                                    <div class="col-12 my-2">
+                                        <input type="text" name="full_name" id="full_name" class="form-control" placeholder="Full Name">
+                                    </div>
+                                    <div class="col-12 my-2">
+                                        <input type="email" name="email" id="email" class="form-control" placeholder="Your Email">
+                                    </div>
+                                    <div class="col-12 my-2">
+                                        <input type="text" name="phone" id="phone" class="form-control" placeholder="Your Phone">
+                                    </div>
+                                    <div class="col-12 my-2">
+                                        <select id="course" name="course" class="w-100 py-2 form-select">
+                                            <option selected>Choose Course</option>
+                                            <option value="course 1">Course 1</option>
+                                            <option value="course 2">Course 2</option>
+                                            <option value="course 3">Course 3</option>
+                                            <option value="course 4">Course 4</option>
+                                            <option value="course 5">Course 5</option>
+                                            <option value="course 6">Course 6</option>
+                                        </select>                    
+                                    </div>
+                                    <div class="text-center pd my-2">
+                                        <button href = "#submit" id="submit" class="btn btn-light btn-radius btn-brd grd1 btn-block">Submit</button>
+                                    </div>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-xs-12">
-                    <!-- join us form -->
-                    <div class="join_us">
-                        <form id="joinUs" class="" name="joinUs">
-                            <h4 class="text-white text-center mb-3">Pick A Course For You</h4>
-                            <div class="row row-fluid">
-                                <div class="col-12 my-2">
-                                    <input type="text" name="full_name" id="full_name" class="form-control" placeholder="Full Name">
-                                </div>
-                                <div class="col-12 my-2">
-                                    <input type="email" name="email" id="email" class="form-control" placeholder="Your Email">
-                                </div>
-                                <div class="col-12 my-2">
-                                    <input type="text" name="phone" id="phone" class="form-control" placeholder="Your Phone">
-                                </div>
-                                <div class="col-12 my-2">
-                                    <select id="course" name="course" class="w-100 py-2 form-select">
-                                        <option selected>Choose Course</option>
-                                        <option value="course 1">Course 1</option>
-                                        <option value="course 2">Course 2</option>
-                                        <option value="course 3">Course 3</option>
-                                        <option value="course 4">Course 4</option>
-                                        <option value="course 5">Course 5</option>
-                                        <option value="course 6">Course 6</option>
-                                    </select>                    
-                                </div>
-                                <div class="text-center pd my-2">
-                                    <button href = "#submit" id="submit" class="btn btn-light btn-radius btn-brd grd1 btn-block">Submit</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
             </div>
-        </div>
-    </footer>
-    <!-- end of footer -->
+        </footer>
+        <!-- end of footer -->
 
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js" integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
-</body>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js" integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </body>
 </html>

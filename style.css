@@ -9,6 +9,7 @@
 }
 
 .first-section {
+    background-size: cover;
     background-position-x: center;
     overflow: hidden;
     height: 100vh;
