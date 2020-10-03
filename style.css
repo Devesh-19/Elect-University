@@ -1,8 +1,74 @@
-.navbar-nav > li{
+body
+{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* navbar */
+
+.navbar-nav > li
+{
+    font-weight: 700;
     padding-left:7px;
     padding-right:7px;
     letter-spacing: 1px;
 }
+
+.navbar-light .navbar-nav .nav-link 
+{
+    color: black;
+}
+
+.navbar-light .navbar-nav .nav-link:hover 
+{
+    color: rgb(247, 137, 86);
+}
+
+.navbar-brand 
+{
+    font-weight: 900;
+    font-size: 38px;
+    padding: 0;
+    line-height: 1;
+    text-transform: uppercase; 
+}
+
+.navbar-brand span 
+{
+    margin-left: 60px;
+    display: block;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px; 
+}
+/* navbar end */
+
+/* about us section */
+
+.heading-section h2
+{
+    font-size: 2.5rem;
+}
+
+.heading-section p
+{
+    font-size: 1.1rem;
+}
+
+#about .number
+{
+    display: block;
+    font-size: 1.7rem;
+    color: rgb(247, 137, 86);
+}
+
+#about span
+{
+    font-size: 1.2rem;
+}
+
+/* about us end */
+
+
 
 .service-item .service-icon img {
     max-width: 100%;
@@ -16,7 +82,7 @@
 	vertical-align: middle;
 }
 
-
+/* footer section */
 
 footer
 {
@@ -24,39 +90,33 @@ footer
     color: white;
 }
 
+.footer-links
+{
+    list-style: none;
+    line-height: 2;
+}
+
 .footer-links-soi 
 {
-
     list-style-type: none;
-
     margin: 0;
-
     padding: 0;
-
     overflow: hidden;
-
     background-color: #0d0c22;
-
 }
 
 .footer-links-soi li 
 {
-
     float: left;
-
 }
 
 .footer-links-soi li a 
 {
-
     display: block;
-
     color: white;
-
     text-align: center;
-
     padding: 16px;
-
     text-decoration: none;
-
 }
+
+/* end of footer section */
