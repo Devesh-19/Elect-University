@@ -5,7 +5,14 @@ body
     font-size: 1.1rem;
 }
 
-
+hr.style-one 
+{
+    border: 0;
+    height: 5px;
+    width:80%;
+    margin:auto;
+    background: rgb(247, 78, 0);
+}
 
 /* navbar */
 .navbar-nav > li
@@ -48,6 +55,16 @@ body
 
 
 /* carousel */
+.carousel.slide
+{
+    margin-top: 70px;
+}
+
+.carousel-indicators
+{
+    padding-bottom: 50px;
+}
+
 .first-section {
     background-size: cover;
     background-position-x: center;
