@@ -14,6 +14,18 @@ hr.style-one
     background: rgb(247, 78, 0);
 }
 
+h3
+{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.section-title h3
+{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
 /* navbar */
 .navbar-nav > li
 {
@@ -57,12 +69,7 @@ hr.style-one
 /* carousel */
 .carousel.slide
 {
-    margin-top: 70px;
-}
-
-.carousel-indicators
-{
-    padding-bottom: 50px;
+    margin-top: 30px;
 }
 
 .first-section {
@@ -81,6 +88,7 @@ hr.style-one
 {
     font-size: 2.5rem;
     font-weight: 700;
+    text-shadow: 3px 2px 5px rgb(247, 137, 86);
 }
 
 .heading-section p
@@ -91,7 +99,7 @@ hr.style-one
 #about .number
 {
     display: block;
-    font-size: 1.7rem;
+    font-size: 2rem;
     color: rgb(247, 137, 86);
 }
 
@@ -117,16 +125,16 @@ hr.style-one
 
 
 /* courses section */
-.courses p
+.course-cards p
 {
     font-size: 1rem;
 }
-.courses .btn-outline-success 
+.course-cards .btn-outline-success 
 {
     color:rgb(247, 137, 86);
     border-color:rgb(247, 137, 86);
 }
-.courses .btn-outline-success:hover 
+.course-cards .btn-outline-success:hover 
 {
     color:black;
     border-color:rgb(247, 137, 86);
@@ -221,7 +229,14 @@ footer
     display: block;
     color: white;
     text-align: center;
-    padding: 16px;
+    padding-right: 32px;
     text-decoration: none;
+}
+
+#joinUs #submit
+{
+    font-size: 1.2rem;
+    background-color: rgb(247, 137, 86);
+    border-color: rgb(247, 137, 86);
 }
 /* end of footer section */
