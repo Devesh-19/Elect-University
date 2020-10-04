@@ -1,10 +1,13 @@
 body
 {
     font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
 }
 
-/* navbar */
 
+
+/* navbar */
 .navbar-nav > li
 {
     font-weight: 700;
@@ -42,11 +45,25 @@ body
 }
 /* navbar end */
 
-/* about us section */
 
+
+/* carousel */
+.first-section {
+    background-size: cover;
+    background-position-x: center;
+    overflow: hidden;
+    height: 100vh;
+	vertical-align: middle;
+}
+/* end of carousel */
+
+
+
+/* about us section */
 .heading-section h2
 {
     font-size: 2.5rem;
+    font-weight: 700;
 }
 
 .heading-section p
@@ -65,25 +82,97 @@ body
 {
     font-size: 1.2rem;
 }
-
 /* about us end */
 
 
 
+/* services section */
 .service-item .service-icon img {
     max-width: 100%;
 }
 
-.first-section {
-    background-size: cover;
-    background-position-x: center;
-    overflow: hidden;
-    height: 100vh;
-	vertical-align: middle;
+.service-item
+{
+    font-size: 1rem;
 }
+/* end of services section */
+
+
+
+/* courses section */
+.courses p
+{
+    font-size: 1rem;
+}
+.courses .btn-outline-success 
+{
+    color:rgb(247, 137, 86);
+    border-color:rgb(247, 137, 86);
+}
+.courses .btn-outline-success:hover 
+{
+    color:black;
+    border-color:rgb(247, 137, 86);
+    background-color: rgb(247, 137, 86);
+}
+/* end of courses section */
+
+
+
+/* events section */
+/* .event_date
+{
+    border : 2px solid rgb(247, 137, 86);
+}
+.event_date .event_day
+{
+    font-size: 1.75rem;
+} */
+
+.event_date
+{
+	width: 131px;
+	height: 131px;
+	border: solid 2px  rgb(247, 137, 86);
+	margin-bottom: 18px;
+}
+.event_day
+{
+	font-size: 48px;
+	font-weight: 700;
+	color:  rgb(247, 137, 86);
+	margin-bottom: 1px;
+	line-height: 1;
+}
+.event_month
+{
+	font-size: 16px;
+	font-weight: 700;
+	color:  rgb(247, 137, 86);
+}
+.event_name a
+{
+	font-size: 22px;
+	font-weight: 500;
+    color: #1a1a1a;
+    text-decoration: none;
+}
+.event_name a:hover
+{
+    color: rgb(247, 137, 86)
+}
+.event_location
+{
+	font-size: 14px;
+	font-weight: 500;
+	color: #1a1a1a;
+	margin-top: 2px;
+}
+/* end of events section */
+
+
 
 /* footer section */
-
 footer
 {
     background-color: #0d0c22;
@@ -118,5 +207,4 @@ footer
     padding: 16px;
     text-decoration: none;
 }
-
 /* end of footer section */
